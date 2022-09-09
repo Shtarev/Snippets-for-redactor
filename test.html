@@ -12,8 +12,17 @@
 <div>
 <div style="padding: 10px; margin-bottom: 10px; background: #ffede1; border-radius: 10px; font-size: 10pt;">lorem ipsum sed ut perspiciatis <strong>unde omnis</strong> natus error sit voluptatem accusantium doloremque laudantium totam <a style="color: #003366;" href="https://github.com/Shtarev/"; target="_blank">rem aperiam eaque.</a> ipsa quae ab illo</div>
 </div>
+<button onclick="let snipel = this.parentElement.children[1]; let range = document.createRange(); range.selectNode(snipel); window.getSelection().addRange(range); document.execCommand('copy');">Copy</button>
+</details>
+<!--Following
+<details>  
+<summary>TITLE</summary>
+<div>
+CODE
+</div>
 <button onclick="let snipel = this.parentElement.children[1]; let range = document.createRange(); range.selectNode(snipel); window.getSelection().addRange(range); document.execCommand('copy');">Скопировать</button>
 </details>
+-->
 </div>
 </body>
 </html>
