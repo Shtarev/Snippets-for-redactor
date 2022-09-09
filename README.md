@@ -1,1 +1,0 @@
-js copy to clipboard
