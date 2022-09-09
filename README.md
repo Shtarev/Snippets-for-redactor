@@ -1,1 +1,1 @@
-Просто вставь в body
+js copy to clipboard
